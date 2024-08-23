@@ -2,7 +2,7 @@ pipeline {
     agent agent01
 
     environment {
-        IMAGE = "172.23.178.167/demo/nginx:2024-08-23"
+        IMAGE = "172.23.178.167/demo/nginx:2024-08-23-1"
         DOCKERFILE = "./Dockerfile"
         DOCKER_IMAGE_REGISTRY_CREDS = credentials('harbor')
     }
